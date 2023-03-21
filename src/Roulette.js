@@ -133,6 +133,7 @@ const Roulette = () => {
   //the UI of our component
   return (
     <div id="container">
+        <div id='roulette-panel'>
         <div className="image-container">
           <img src="https://img.icons8.com/external-smashingstocks-detailed-outline-smashing-stocks/100/ffebcd/external-spinning-industrial-production-factory-automation-smashingstocks-detailed-outline-smashing-stocks.png" alt="Spinning Roulette" />
         </div>
@@ -194,7 +195,19 @@ const Roulette = () => {
           <h3 id='waitingForTransaction'> {betIsSent && gamblerName && betIsMade ? 'Waiting for transaction to be finalized...':''}</h3>
           <h3>{betIsSent && randomNumber ? 'Winning number on roulette was: ' + randomNumber : ''}</h3>
           <h3>{betIsSent && randomNumber ? result : ''}</h3>
+          </div>
         </div>
+      </div>
+      <div id='rules-panel'>
+        <h1 id='rules-panel-headline'>Roulette Rules</h1>
+        <ul>
+          <li>The roulette produces a semi-random number in a range of 0 to 9.</li>
+          <li>You can bet on even numbers: 2,4,.. or on odd numbers: 1,3,..</li>
+          <li>It is not possible to place a bet on 0.</li>
+          <li>The bet amount is set to 0.01 Goerli Ether and cannot be changed.</li>
+          <li>If you guess the numbers correctly, you will win double your bet amount.</li>
+          <li>It can take up to one minute before the new block is mined and the result is obtained.</li>
+        </ul>
       </div>
     </div>
   );

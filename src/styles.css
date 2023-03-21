@@ -16,19 +16,41 @@ a {
   color: blanchedalmond;
 }
 
+li {
+  margin-bottom: 15px;
+  }
+
+#container {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  align-content: space-between;
+  position: relative;
+  }
+
+.image-container {
+  margin-left: 7vw;
+}
+
 #status {
   font-family: 'Helvetica', sans-serif;
 }
 
+#roulette-panel {
+  display: inline-block;
+  border: 2px dashed blanchedalmond;
+  padding: 16px;
+} 
 
-#container {
-border: 2px dashed blanchedalmond;
-padding: 32px;
-position: relative;
-}
 
-.image-container {
-  margin-left: 7vw;
+#rules-panel {
+  display: inline-block;
+  border: 2px dashed blanchedalmond;
+  padding: 16px;
+  font-family: 'Helvetica', sans-serif;
+} 
+
+#rules-panel-headline {
+  text-align: center;
 }
 
 #walletButton {
@@ -43,6 +65,8 @@ position: relative;
   border-radius: 6px;
   margin-bottom: 6vh;
 }
+
+
 
 input {
   padding: 12px 20px; /* Set the padding */
