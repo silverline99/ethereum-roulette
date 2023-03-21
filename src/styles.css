@@ -1,0 +1,116 @@
+body {
+  background-color:#262430;
+  color:blanchedalmond;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:90vh;  
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Helvetica', sans-serif;
+}
+
+a {
+  color: blanchedalmond;
+}
+
+#status {
+  font-family: 'Helvetica', sans-serif;
+}
+
+
+#container {
+border: 2px dashed blanchedalmond;
+padding: 32px;
+position: relative;
+}
+
+.image-container {
+  margin-left: 7vw;
+}
+
+#walletButton {
+  font-weight: bold;
+  margin-top: 2vh;
+  margin-right: 1vw;
+  padding: 1vh 1vw;
+  font-size: 16px;
+  background-color:rgb(2, 102, 104);
+  border: none;
+  color:blanchedalmond;
+  border-radius: 6px;
+  margin-bottom: 6vh;
+}
+
+input {
+  padding: 12px 20px; /* Set the padding */
+  margin: 8px 0; /* Set the margin */
+  box-sizing: border-box; /* Set box-sizing */
+  border: 2px solid #ccc; /* Set border */
+  border-radius: 4px; /* Set border radius */
+  font-size: 16px; /* Set font size */
+  color:#262430;
+  font-weight: bold;
+}
+
+#evenNumbersBetButton {
+  margin-top: 2vh;
+  margin-right: 1vw;
+  padding: 1vh 1vw;
+  font-size: 16px;
+  background-color:rgb(2, 102, 104);
+  border: none;
+  color:blanchedalmond;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+#oddNumbersBetButton {
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  padding: 1vh 1vw;
+  font-size: 16px;
+  background-color:rgb(2, 102, 104);
+  border: none;
+  color:blanchedalmond;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+#oddNumbersBetButton:hover {
+  margin-top: 2vh;
+  padding: 1vh 1vw;
+  font-size: 16px;
+  background-color:rgb(0, 154, 156);
+  border: none;
+  color:blanchedalmond;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+#evenNumbersBetButton:hover {
+  margin-top: 2vh;
+  padding: 1vh 1vw;
+  font-size: 16px;
+  background-color:rgb(0, 154, 156);
+  border: none;
+  color:blanchedalmond;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+#sendBetButton {
+  font-weight: bold;
+  margin-top: 1vh;
+  padding: 1vh 1vw;
+  font-size: 16px;
+  border: none;
+  color: #262430;
+  border-radius: 6px;
+}
+
+#waitingForTransaction {
+  color:rgb(0, 154, 156);
+}
