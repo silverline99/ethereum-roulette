@@ -37,14 +37,14 @@ li {
 
 #roulette-panel {
   display: inline-block;
-  border: 2px dashed blanchedalmond;
+  border: 2px dashed rgb(0, 154, 156);
   padding: 16px;
 } 
 
 
 #rules-panel {
   display: inline-block;
-  border: 2px dashed blanchedalmond;
+  border: 2px dashed rgb(0, 154, 156);
   padding: 16px;
   font-family: 'Helvetica', sans-serif;
 } 
