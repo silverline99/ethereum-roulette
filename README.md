@@ -13,13 +13,13 @@ Although the generated numbers are quite easily guessed, the project is located 
 # Getting Started
 
 First install dependencies by running `npm install`. This project uses Alchemy Web3 so you need to go to [Alchemy.com](www.alchemy.com) to obtain your Alchemy API key. Once you have generated your API key, create `.env` file in the root of the project and add the API key. Finally, you can start a local development server with `npm start`.
-Open [http://localhost:3000] with your browser and to see the result.
+Open http://localhost:3000 with your browser and see the result.
 
 # Webpack 5 Polyfills Issue
 
 If you are using `create-react-app` version >= 5 you might face multiple issues with webpack 5. The issue is caused by the fact that the web3.js and ethers.js packages have certain dependencies, which are not present within the browser environment by webpack 5. The problem can be resolved by installing react-app-rewired and missing modules. Step by step instructions are described in this article: [Webpack 5 Polyfills Issue](https://web3auth.io/docs/troubleshooting/webpack-issues#react).
 
-# Advantages of Having Own Local Node:
+# Advantages of Having Own Local Node
 
 Establishing your own local node for testing purposes can be helpful. The main advantage is that you don't have to pay any gas fees to the testnet network. Additionally, you don't have to deploy every iteration of the smart contract to the testnet and send some initial funding in Goerli ETH. You can also adjust the parameters of the blockchain according to your needs. However, it is not possible to establish a connection with Alchemy Web3, and you have to use the Ethers library.
 
@@ -39,7 +39,7 @@ To learn more about the components used to build the project you can visit:
 - [React Documentation](https://react.dev/learn) - learn more about frontend of a web3 app.
 - [MetaMask Documentation](https://metamask.io/) - learn more about implementation of a MetaMask wallet.
 - [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.17/) - learn more about smart contracts.
-- [Alchemy Web3 Development](https://docs.alchemy.com/) platform - learn more the tools they provide for web3 developers.
+- [Alchemy Web3 Development platform](https://docs.alchemy.com/) - learn more the tools they provide for web3 developers.
 - [Ethers Documentation](https://docs.ethers.org/v5/) - learn more about ways how to interact with the Ethereum Blockchain.
 - [HardHat Documentation](https://hardhat.org/docs) - learn more about Ethereum development environment.
 
