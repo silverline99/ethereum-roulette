@@ -12,7 +12,7 @@ Although the generated numbers are quite easily guessed, the project is located 
 
 # Getting Started
 
-First install dependencies by running `npm install`. This project uses Alchemy Web3 so you need to go to [Alchemy.com](www.alchemy.com) to obtain your Alchemy API key. Once you have generated your API key, create `.env` file in the root of the project and add the API key. Finally, you can start a local development server with `npm start`.
+First install dependencies by running `npm install`. This project uses Alchemy Web3 so you need to go to [Alchemy.com](https://www.alchemy.com) to obtain your Alchemy API key. Once you have generated your API key, create `.env` file in the root of the project and add the API key. Finally, you can start a local development server with `npm start`.git
 Open http://localhost:3000 with your browser and see the result.
 
 # Webpack 5 Polyfills Issue
